@@ -17,4 +17,16 @@
     width: 100vw;
     background-color: var(--bg-color);
     color: var(--txt-color);
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
 }
+
+#wrapper {
+    display: flex;
+    flex-flow: column;
+}
+
+a {text-decoration: none;}
+a:hover {text-decoration: underline;}
